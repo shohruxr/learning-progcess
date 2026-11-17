@@ -8,6 +8,7 @@ import "./index.css";
 // import Counter from "./components/useState.tsx";
 import Message from "./conditions/IfElse.tsx";
 import Login from "./conditions/Ternary.tsx";
+import LogicalAnd from "./conditions/LogicalAnd.tsx";
 
 
 createRoot(document.getElementById("root")!).render(
@@ -25,5 +26,6 @@ createRoot(document.getElementById("root")!).render(
     {/* <IconButton /> */}
     <Message />
     <Login/>
+    <LogicalAnd />
   </StrictMode>,
 );
