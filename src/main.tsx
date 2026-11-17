@@ -7,6 +7,7 @@ import "./index.css";
 // import Child from "./DivProps.tsx";
 // import Counter from "./components/useState.tsx";
 import Message from "./conditions/IfElse.tsx";
+import Login from "./conditions/Ternary.tsx";
 
 
 createRoot(document.getElementById("root")!).render(
@@ -23,5 +24,6 @@ createRoot(document.getElementById("root")!).render(
     </Child> */}
     {/* <IconButton /> */}
     <Message />
+    <Login/>
   </StrictMode>,
 );
