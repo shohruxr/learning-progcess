@@ -9,6 +9,7 @@ import "./index.css";
 import Message from "./conditions/IfElse.tsx";
 import Login from "./conditions/Ternary.tsx";
 import LogicalAnd from "./conditions/LogicalAnd.tsx";
+import BasicList from "./Lists/FirstList.tsx";
 
 
 createRoot(document.getElementById("root")!).render(
@@ -27,5 +28,6 @@ createRoot(document.getElementById("root")!).render(
     <Message />
     <Login/>
     <LogicalAnd />
+    <BasicList />
   </StrictMode>,
 );
