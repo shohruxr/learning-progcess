@@ -1,10 +1,10 @@
-function ObjectList() {
+function Newlist() {
   const items: { id: number; name: string }[] = [
-    { id: 1, name: 'Item 1' },
-    { id: 2, name: 'Item 2' },
-    { id: 3, name: 'Item 3' }
+    { id: 1, name: "Item 1" },
+    { id: 2, name: "Item 2" },
+    { id: 3, name: "Item 3" },
   ];
- return (
+  return (
     <ul style={{ listStyleType: "none" }}>
       {items.map((item) => (
         <li key={item.id}>{item.name}</li>
@@ -13,4 +13,4 @@ function ObjectList() {
   );
 }
 
-export default ObjectList;
+export default Newlist;
