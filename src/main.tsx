@@ -1,15 +1,20 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import WrongTimer from "./hooks/useRef/WrongTimer";
+import RightTimer from "./hooks/useRef/RightTimer";
 // import App from "./App.tsx";
 // import { FormButton, IconButton } from "./Buttons.tsx";
 // import Props from "./Props";
 // import Child from "./DivProps.tsx";
-// import Counter from "./components/useState.tsx";
-import Message from "./conditions/IfElse.tsx";
-import Login from "./conditions/Ternary.tsx";
-import LogicalAnd from "./conditions/LogicalAnd.tsx";
-import BasicList from "./Lists/FirstList.tsx";
+//  import Counter from "./components/useState.tsx";
+// import Message from "./conditions/IfElse.tsx";
+// import Login from "./conditions/Ternary.tsx";
+// import LogicalAnd from "./conditions/LogicalAnd.tsx";
+// // import BasicList from "./Lists/FirstList.tsx";
+// import FocusInput from "./hooks/useRef/focusinput.tsx";
+// import PrevValue from "./hooks/useRef/PreviousValue.tsx";
+
 
 
 createRoot(document.getElementById("root")!).render(
@@ -25,10 +30,14 @@ createRoot(document.getElementById("root")!).render(
       </div>
     </Child> */}
     {/* <IconButton /> */}
-    <Message />
-    <Login/>
+    {/* <Message /> */}
+    {/* <Login/>
     <LogicalAnd />
-    <BasicList />
-    
+    <BasicList /> */}
+    {/* <FocusInput />
+    <PrevValue /> */}
+  
+  {/* <WrongTimer /> */}
+  {/* <RightTimer /> */}
   </StrictMode>,
 );
