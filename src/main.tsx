@@ -1,8 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import WrongTimer from "./hooks/useRef/WrongTimer";
-import RightTimer from "./hooks/useRef/RightTimer";
+// import WrongTimer from "./hooks/useRef/WrongTimer";
+// import RightTimer from "./hooks/useRef/RightTimer";
+import { BgCleanUP } from "./hooks/useEffect/BgCleanUP";
 // import App from "./App.tsx";
 // import { FormButton, IconButton } from "./Buttons.tsx";
 // import Props from "./Props";
@@ -39,5 +40,6 @@ createRoot(document.getElementById("root")!).render(
   
   {/* <WrongTimer /> */}
   {/* <RightTimer /> */}
+  <BgCleanUP />
   </StrictMode>,
 );
